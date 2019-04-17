@@ -23,11 +23,11 @@ bpy.ops.transform.translate(value=(-2.38419e-007, -7.99027, 0), constraint_axis=
 bpy.ops.transform.translate(value=(0, -0, 4.0), constraint_axis=(False, False, True), constraint_orientation='GIMBAL', mirror=False, proportional='DISABLED', proportional_edit_falloff='SMOOTH', proportional_size=1, release_confirm=True, use_accurate=False)
 
 object_name = "monkey"
-file_path = "C:\\Users\\Chris\\workspaces\\blender_1\\synthetic_images\\"
+file_path = "C:\\Users\\Chris\\workspaces\\synthetic_ai_blender\\synthetic_images\\"
 image_prefix = "{}_".format(object_name)
 
 bpy.data.scenes["Scene"].render.filepath = "{0}{1}0-0_0_0.png".format(file_path, image_prefix)
-bpy.ops.render.render(write_still = True)
+bpy.ops.render.render(write_still=True)
 
 max_degree_delta = 5
 main_object = bpy.data.objects['Suzanne']

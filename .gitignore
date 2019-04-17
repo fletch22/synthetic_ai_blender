@@ -1,2 +1,5 @@
 synthetic_images/
 .idea/
+*.pyc
+logs/
+venv/
