@@ -5,7 +5,7 @@ from app.config import config
 
 log_path = os.path.join(config.LOG_PATH, 'synth_ai_blender.log')
 
-logging.basicConfig(filename=log_path,level=logging.INFO)
+logging.basicConfig(filename=log_path, level=logging.INFO)
 
 root = logging.getLogger()
 
