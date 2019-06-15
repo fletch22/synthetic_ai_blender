@@ -3,3 +3,4 @@ synthetic_images/
 *.pyc
 logs/
 venv/
+data/temp
